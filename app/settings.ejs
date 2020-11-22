@@ -206,7 +206,7 @@
                         <button class="settingsFileSelButton" id="settingsJavaExecSel" dialogTitle="Select Java Executable" dialogDirectory="false">Choose File</button>
                     </div>
                 </div>
-                <div class="settingsFileSelDesc">The Java executable is validated before game launch. <strong>Requires Java 8 x64.</strong><br>The path should end with <strong>bin<%= process.platform === 'win32' ? '\\javaw.exe' : '/java' %></strong>.</div>
+                <div class="settingsFileSelDesc">The Java executable is validated before game launch. <strong>Requires Java 8 x64 or Java 11+ for mc 13+</strong><br>The path should end with <strong>bin<%= process.platform === 'win32' ? '\\javaw.exe' : '/java' %></strong>.</div>
             </div>
             <div id="settingsJVMOptsContainer">
                 <div id="settingsJVMOptsTitle">Additional JVM Options</div>
@@ -276,7 +276,7 @@
                 <div id="settingsAboutCurrentContent">
                     <div id="settingsAboutCurrentHeadline">
                         <img id="settingsAboutLogo" src="./assets/images/SealCircle.png">
-                        <span id="settingsAboutTitle">Helios Launcher</span>
+                        <span id="settingsAboutTitle">Takato Launcher</span>
                     </div>
                     <div id="settingsAboutCurrentVersion">
                         <div id="settingsAboutCurrentVersionCheck">&#10003;</div>
@@ -290,10 +290,10 @@
                     </div>
                 </div>
                 <div id="settingsAboutButtons">
-                    <a href="https://github.com/dscalZi/HeliosLauncher" id="settingsAboutSourceButton" class="settingsAboutButton">Source (GitHub)</a>
+                    <a href="https://github.com/TheCuddlyBear/HeliosLauncher" id="settingsAboutSourceButton" class="settingsAboutButton">Source (GitHub)</a>
                     <!-- The following must be included in third-party usage. -->
-                    <!-- <a href="https://github.com/dscalzi/HeliosLauncher" id="settingsAboutSourceButton" class="settingsAboutButton">Original Source</a> -->
-                    <a href="https://github.com/dscalZi/HeliosLauncher/issues" id="settingsAboutSupportButton" class="settingsAboutButton">Support</a>
+                    <a href="https://github.com/dscalzi/HeliosLauncher" id="settingsAboutSourceButton" class="settingsAboutButton">Original Source</a>
+                    <a href="https://github.com/TheCudddlyBear/HeliosLauncher/issues" id="settingsAboutSupportButton" class="settingsAboutButton">Support</a>
                     <a href="#" id="settingsAboutDevToolsButton" class="settingsAboutButton">DevTools Console</a>
                 </div>
             </div>

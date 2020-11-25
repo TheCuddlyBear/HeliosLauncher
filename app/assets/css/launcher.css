@@ -3228,7 +3228,7 @@ input:checked + .toggleSwitchSlider:before {
 }
 #launch_button:hover,
 #launch_button:focus {
-    text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff;
+    text-shadow: 0px 0px 20px #fff, 0px 0px 10px #fff;
 }
 #launch_button:active {
     color: #c7c7c7;
